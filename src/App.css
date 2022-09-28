@@ -59,3 +59,7 @@ body {
 .row #title {
   flex: 70%;
 }
+
+#icon {
+  margin-left: 20px;
+}
