@@ -1,0 +1,61 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo img {
+  margin: 0;
+  padding: 30px;
+  width: 250px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+.Sidebar {
+  height: 100%;
+  width: 300px;
+  background-color: #3d00b8;
+}
+
+.SidebarList {
+  height: auto;
+  padding: 0;
+  width: 100%;
+
+  
+}
+
+.SidebarList .row {
+  width: 100%;
+  height: 50px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  color: #0affb1;
+  justify-content: center;
+  align-items: center;
+  font-family: Proxima Nova, sans-serif;
+
+}
+
+.SidebarList li {
+  transition: background-color 250ms ease;
+}
+
+.SidebarList li:hover {
+  cursor: pointer;
+  background-color: #0affb1;
+  color: #3d00b8;
+}
+
+.row #icon {
+  flex: 30%;
+}
+.row #title {
+  flex: 70%;
+}
